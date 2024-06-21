@@ -1,5 +1,5 @@
 ## Algorithmic Problem Solving Portfolio
-![Header Image](header.png)
+![Header Image](header.jpeg)
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
