@@ -69,11 +69,9 @@ By the end of this portfolio project, I aim to accomplish the following objectiv
 - **Sustainable Development**: Promote sustainable practices by reducing resource consumption and minimizing environmental impact.
 
 
-## Business Use Cases and Potential Algorithms
+# Business Use Cases for Smart Cities   
 ![Usecases Image](usecases.jpeg)
-
-# Business Use Cases for Smart Cities Using DSA Algorithms 
-
+ 
 ## 1. Traffic Management Systems
 Smart traffic management systems use sensors and real-time data analytics to monitor and control traffic flow, reduce congestion, and enhance road safety. They rely on technologies such as cameras, IoT devices, and machine learning to gather and analyze data, allowing for dynamic traffic signal adjustments and real-time route recommendations.
 
