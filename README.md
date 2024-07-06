@@ -79,11 +79,11 @@ Smart traffic management systems use sensors and real-time data analytics to mon
 - **Market Benefits**: Reduced travel time, decreased fuel consumption, improved traffic safety.
 - **Design Techniques and Algorithms**:
   - **Dijkstra's Algorithm**: For route optimization. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/Dijkstras.cpp)
-    - **Time Complexity**: O(V^2) or O(E + V log V) with a priority queue, where V is the number of vertices and E is the number of edges.
-    - **Space Complexity**: O(V), for storing the shortest path tree.
+    - *Time Complexity*: O(V^2) or O(E + V log V) with a priority queue, where V is the number of vertices and E is the number of edges.
+    - *Space Complexity*: O(V), for storing the shortest path tree.
   - **A* Algorithm**: For enhanced route optimization with heuristics. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/A*.cpp)
-    - **Time Complexity**: O(E), where E is the number of edges.
-    - **Space Complexity**: O(V), for storing the open and closed lists.
+    - *Time Complexity*: O(E), where E is the number of edges.
+    - *Space Complexity*: O(V), for storing the open and closed lists.
 
 ## 2. Waste Management Optimization
 IoT-enabled waste management systems optimize collection routes and schedules based on real-time data from smart bins, reducing operational costs and improving efficiency. These systems use sensors in bins to monitor fill levels and predict the optimal times for collection.
@@ -92,20 +92,20 @@ IoT-enabled waste management systems optimize collection routes and schedules ba
 - **Market Benefits**: Reduced operational costs, increased efficiency, improved environmental impact.
 - **Design Techniques and Algorithms**:
   - **Greedy Algorithm**: For route optimization in waste collection. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/greedy.cpp)
-    - **Time Complexity**: O(n log n), where n is the number of bins.
-    - **Space Complexity**: O(n), for storing the sorted bins.
+    - *Time Complexity*: O(n log n), where n is the number of bins.
+    - *Space Complexity*: O(n), for storing the sorted bins.
   - **K-Means Clustering**: For bin clustering and route optimization. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/k-means-clustering.cpp)
-    - **Time Complexity**: O(n * k * t), where n is the number of bins, k is the number of clusters, and t is the number of iterations.
-    - **Space Complexity**: O(n), for storing cluster assignments.
+    - *Time Complexity*: O(n * k * t), where n is the number of bins, k is the number of clusters, and t is the number of iterations.
+    - *Space Complexity*: O(n), for storing cluster assignments.
 
 ## 3. Energy Consumption Monitoring
 Smart grids and meters provide real-time monitoring and management of energy consumption, leading to more efficient energy use and reduced wastage. These systems allow for dynamic adjustments to energy distribution based on real-time demand and supply.
 
 - **Challenges**: Integrating renewable sources, ensuring grid stability, managing peak loads.
-- **Market Benefits**: Reduced energy costs, improved sustainability, enhanced grid reliability.
+- **Market Benefits**]: Reduced energy costs, improved sustainability, enhanced grid reliability.
 - **Design Techniques and Algorithms**:
   - **Dynamic Programming**: For optimizing energy consumption schedules. [View code here](https://github.com/your-repo/dynamic-programming)
-    - **Time Complexity**: O(n * m), where n is the number of time slots and m is the number of devices.
+    - **Time Complexity*: O(n * m), where n is the number of time slots and m is the number of devices.
     - **Space Complexity**: O(n), for storing the optimal schedules.
   - **Fenwick Tree (Binary Indexed Tree)**: For efficient energy usage queries. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/FenwickTree.cpp)
     - **Time Complexity**: O(log n) for updates and queries.
@@ -118,11 +118,11 @@ Advanced surveillance systems enhance public safety through real-time monitoring
 - **Market Benefits**: Enhanced public safety, quick response to incidents, reduced crime rates.
 - **Design Techniques and Algorithms**:
   - **Huffman Coding**: For compressing video metadata. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/Huffman.cpp)
-    - **Time Complexity**: O(n log n), where n is the number of unique characters.
-    - **Space Complexity**: O(n), for storing the Huffman tree and encoded data.
+    - *Time Complexity*: O(n log n), where n is the number of unique characters.
+    - *Space Complexity*: O(n), for storing the Huffman tree and encoded data.
   - **Depth-First Search (DFS)**: For anomaly detection in surveillance graphs. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/DFS.cpp)
-    - **Time Complexity**: O(V + E), where V is the number of vertices and E is the number of edges.
-    - **Space Complexity**: O(V), for storing the traversal stack.
+    - *Time Complexity*: O(V + E), where V is the number of vertices and E is the number of edges.
+    - *Space Complexity*: O(V), for storing the traversal stack.
 
 ## 5. Smart Parking Solutions
 Smart parking systems use sensors and mobile applications to guide drivers to available parking spots, reducing search time and traffic congestion. They provide real-time information on parking availability and facilitate online reservations.
@@ -131,11 +131,11 @@ Smart parking systems use sensors and mobile applications to guide drivers to av
 - **Market Benefits**: Reduced traffic congestion, increased parking revenue, improved user convenience.
 - **Design Techniques and Algorithms**:
   - **Binary Search**: For quickly finding available parking spots. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/BST.cpp)
-    - **Time Complexity**: O(log n), where n is the number of parking spots.
-    - **Space Complexity**: O(1), for the search operation.
+    - *Time Complexity*: O(log n), where n is the number of parking spots.
+    - *Space Complexity*: O(1), for the search operation.
   - **Breadth-First Search (BFS)**: For real-time navigation to parking spots. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/BFS.cpp)
-    - **Time Complexity**: O(V + E), where V is the number of vertices and E is the number of edges.
-    - **Space Complexity**: O(V), for storing the traversal queue.
+    - *Time Complexity*: O(V + E), where V is the number of vertices and E is the number of edges.
+    - *Space Complexity*: O(V), for storing the traversal queue.
 
 ## 6. Environmental Monitoring
 IoT devices monitor environmental parameters such as air quality, noise levels, and water quality, providing data for timely interventions and policy-making. These systems help in tracking pollution levels and identifying sources of environmental hazards.
@@ -144,11 +144,11 @@ IoT devices monitor environmental parameters such as air quality, noise levels, 
 - **Market Benefits**: Improved public health, informed policy-making, enhanced environmental protection.
 - **Design Techniques and Algorithms**:
   - **Union-Find Algorithm**: For detecting connected components in sensor networks. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/union-find.cpp)
-    - **Time Complexity**: O(α(n)), where α is the inverse Ackermann function.
-    - **Space Complexity**: O(n), for storing the parent and rank arrays.
+    - *Time Complexity*: O(α(n)), where α is the inverse Ackermann function.
+    - *Space Complexity*: O(n), for storing the parent and rank arrays.
   - **Kruskal’s Algorithm**: For constructing minimum spanning trees in sensor networks. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/Kruskals.cpp)
-    - **Time Complexity**: O(E log E), where E is the number of edges.
-    - **Space Complexity**: O(V), for storing the spanning tree.
+    - *Time Complexity*: O(E log E), where E is the number of edges.
+    - *Space Complexity*: O(V), for storing the spanning tree.
 
 ## 7. Urban Planning and Development
 Smart urban planning uses data analytics and simulation tools to optimize land use, infrastructure development, and resource allocation. These tools help in making informed decisions about zoning, transportation, and public services.
@@ -157,11 +157,11 @@ Smart urban planning uses data analytics and simulation tools to optimize land u
 - **Market Benefits**: Efficient land use, improved infrastructure, informed policy decisions.
 - **Design Techniques and Algorithms**:
   - **Prim’s Algorithm**: For network optimization in urban planning. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/prims.cpp)
-    - **Time Complexity**: O(E log V), where E is the number of edges and V is the number of vertices.
-    - **Space Complexity**: O(V), for storing the minimum spanning tree.
+    - *Time Complexity* O(E log V), where E is the number of edges and V is the number of vertices.
+    - *Space Complexity*: O(V), for storing the minimum spanning tree.
   - **Topological Sort**: For scheduling and dependency resolution in projects. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/DFS.cpp)
-    - **Time Complexity**: O(V + E), where V is the number of vertices and E is the number of edges.
-    - **Space Complexity**: O(V), for storing the sorted order.
+    - *Time Complexity*: O(V + E), where V is the number of vertices and E is the number of edges.
+    - *Space Complexity*: O(V), for storing the sorted order.
 
 ## 8. Smart Lighting Systems
 Adaptive street lighting systems adjust brightness based on the presence of pedestrians or vehicles, reducing energy consumption and light pollution. These systems use sensors to detect motion and adjust lighting levels accordingly.
@@ -170,11 +170,11 @@ Adaptive street lighting systems adjust brightness based on the presence of pede
 - **Market Benefits**: Reduced energy consumption, improved safety, decreased light pollution.
 - **Design Techniques and Algorithms**:
   - **Segment Tree**: For efficient range queries and updates. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/SegmentTree.cpp)
-    - **Time Complexity**: O(log n) for updates and queries.
-    - **Space Complexity**: O(n), for storing the tree.
+    - *Time Complexity*: O(log n) for updates and queries.
+    - *Space Complexity*: O(n), for storing the tree.
   - **Sliding Window Algorithm**: For real-time adjustments based on sensor data. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/hashing.cpp)
-    - **Time Complexity**: O(n), where n is the number of sensors.
-    - **Space Complexity**: O(k), where k is the window size.
+    - *Time Complexity*: O(n), where n is the number of sensors.
+    - *Space Complexity*: O(k), where k is the window size.
 
 ## 9. Emergency Response Optimization
 Implement systems to optimize emergency response times by analyzing real-time data from sensors, traffic cameras, and GPS to dispatch resources efficiently during emergencies. These systems help in quick identification of incidents and efficient allocation of emergency services.
@@ -183,11 +183,11 @@ Implement systems to optimize emergency response times by analyzing real-time da
 - **Market Benefits**: Faster response times, improved public safety, efficient resource utilization.
 - **Design Techniques and Algorithms**:
   - **Bellman-Ford Algorithm**: For finding shortest paths in dynamic graphs. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/BellmanFord.cpp)
-    - **Time Complexity**: O(VE), where V is the number of vertices and E is the number of edges.
-    - **Space Complexity**: O(V), for storing distances and predecessors.
+    - *Time Complexity*: O(VE), where V is the number of vertices and E is the number of edges.
+    - *Space Complexity*: O(V), for storing distances and predecessors.
   - **Priority Queue**: For efficient resource dispatching. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/PriorityQueue.cpp)
-    - **Time Complexity**: O(log n) for insertion and extraction.
-    - **Space Complexity**: O(n), for storing the queue elements.
+    - *Time Complexity*: O(log n) for insertion and extraction.
+    - *Space Complexity*: O(n), for storing the queue elements.
 
 ## 10. Tourism and Visitor Management
 Implement smart tourism solutions that provide personalized recommendations, real-time navigation, and cultural insights to enhance visitor experience and optimize tourism impact on the city. These solutions leverage data from various sources to offer tailored experiences to tourists.
@@ -196,11 +196,11 @@ Implement smart tourism solutions that provide personalized recommendations, rea
 - **Market Benefits**: Improved visitor experience, increased tourism revenue, enhanced cultural engagement.
 - **Design Techniques and Algorithms**:
   - **Collaborative Filtering**: For personalized recommendations. [View code here](https://github.com/your-repo/collaborative-filtering)
-    - **Time Complexity**: O(n), where n is the number of users or items.
-    - **Space Complexity**: O(n), for storing user-item interactions.
+    - *Time Complexity*: O(n), where n is the number of users or items.
+    - *Space Complexity*: O(n), for storing user-item interactions.
   - **Dijkstra’s Algorithm**: For real-time navigation. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/Dijkstras.cpp)
-    - **Time Complexity**: O(V^2) or O(E + V log V) with a priority queue.
-    - **Space Complexity**: O(V), for storing the shortest path tree.
+    - *Time Complexity*: O(V^2) or O(E + V log V) with a priority queue.
+    - *Space Complexity*: O(V), for storing the shortest path tree.
 
  
 ## 11. Urban Agriculture and Food Security
@@ -210,11 +210,11 @@ Integrate IoT technologies to monitor urban agriculture practices, optimize reso
 - **Market Benefits**: Improved food security, efficient resource use, enhanced community engagement.
 - **Design Techniques and Algorithms**:
   - **Greedy Algorithms**: For resource allocation in urban farming. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/greedy.cpp)
-    - **Time Complexity**: O(n log n), where n is the number of resources.
-    - **Space Complexity**: O(n), for storing the allocated resources.
+    - *Time Complexity*: O(n log n), where n is the number of resources.
+    - *Space Complexity*: O(n), for storing the allocated resources.
   - **K-Means Clustering**: For optimizing resource use and crop monitoring. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/k-means-clustering.cpp)
-    - **Time Complexity**: O(n * k * t), where n is the number of data points, k is the number of clusters, and t is the number of iterations.
-    - **Space Complexity**: O(n), for storing cluster assignments.
+    - *Time Complexity*: O(n * k * t), where n is the number of data points, k is the number of clusters, and t is the number of iterations.
+    - *Space Complexity*: O(n), for storing cluster assignments.
 
 ## 12. Education and Smart Learning Environments
 Develop smart learning environments that utilize IoT devices, AI-driven personalized learning platforms, and real-time data analytics to enhance educational outcomes and accessibility. These environments adapt to the needs of each learner, providing customized content and interactive learning experiences.
@@ -223,11 +223,11 @@ Develop smart learning environments that utilize IoT devices, AI-driven personal
 - **Market Benefits**: Improved learning outcomes, enhanced accessibility, personalized learning experiences.
 - **Design Techniques and Algorithms**:
   - **Trie Data Structure**: For efficient text search and auto-completion in learning platforms. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/Trie.cpp)
-    - **Time Complexity**: O(m), where m is the length of the query string.
-    - **Space Complexity**: O(n * k), where n is the number of words and k is the average length of the words.
+    - *Time Complexity*: O(m), where m is the length of the query string.
+    - *Space Complexity*: O(n * k), where n is the number of words and k is the average length of the words.
   - **Collaborative Filtering**: For personalized learning experiences. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/collabarative-filtering.cpp)
-    - **Time Complexity**: O(n), where n is the number of users or items.
-    - **Space Complexity**: O(n), for storing user-item interactions.
+    - *Time Complexity*: O(n), where n is the number of users or items.
+    - *Space Complexity*: O(n), for storing user-item interactions.
 
 ## 13. Electronic Service Delivery
 Digital platforms for delivering government services such as applications, payments, and document issuance, improving efficiency and accessibility. These platforms provide a seamless user experience, reducing the need for in-person visits and paperwork.
@@ -236,11 +236,11 @@ Digital platforms for delivering government services such as applications, payme
 - **Market Benefits**: Improved accessibility, reduced administrative costs, enhanced user satisfaction.
 - **Design Techniques and Algorithms**:
   - **Hashing**: For secure and efficient data retrieval. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/hashing.cpp)
-    - **Time Complexity**: O(1) for average case lookups.
-    - **Space Complexity**: O(n), where n is the number of entries.
+    - *Time Complexity*: O(1) for average case lookups.
+    - *Space Complexity*: O(n), where n is the number of entries.
   - **Dynamic Arrays**: For handling varying user requests efficiently. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/dynamicArray.cpp)
-    - **Time Complexity**: O(1) for amortized insertions.
-    - **Space Complexity**: O(n), where n is the number of elements.
+    - *Time Complexity*: O(1) for amortized insertions.
+    - *Space Complexity*: O(n), where n is the number of elements.
 
 ## 14. Citizen Engagement
 Platforms for citizen participation in governance through feedback, reporting issues, and community discussions. These platforms facilitate two-way communication between citizens and government, improving transparency and accountability.
@@ -249,11 +249,11 @@ Platforms for citizen participation in governance through feedback, reporting is
 - **Market Benefits**: Increased civic participation, improved public services, stronger community ties.
 - **Design Techniques and Algorithms**:
   - **Trie Data Structure**: For efficient searching and autocompletion of user queries. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/Trie.cpp)
-    - **Time Complexity**: O(m), where m is the length of the query string.
-    - **Space Complexity**: O(n * k), where n is the number of words and k is the average length of the words.
+    - *Time Complexity*: O(m), where m is the length of the query string.
+    - *Space Complexity*: O(n * k), where n is the number of words and k is the average length of the words.
   - **Priority Queue**: For handling and prioritizing user feedback. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/PriorityQueue.cpp)
-    - **Time Complexity**: O(log n) for insertion and extraction.
-    - **Space Complexity**: O(n), for storing the feedback.
+    - *Time Complexity*: O(log n) for insertion and extraction.
+    - *Space Complexity*: O(n), for storing the feedback.
 
 ## 15. Video Crime Monitoring
 Surveillance systems using video analytics to detect and respond to criminal activities in real-time. These systems use AI to analyze video feeds and identify suspicious activities, sending alerts to law enforcement for quick action.
@@ -262,11 +262,11 @@ Surveillance systems using video analytics to detect and respond to criminal act
 - **Market Benefits**: Enhanced public safety, quick response to incidents, deterrence of criminal activities.
 - **Design Techniques and Algorithms**:
   - **Huffman Coding**: For compressing video metadata. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/Huffman.cpp)
-    - **Time Complexity**: O(n log n), where n is the number of unique characters.
-    - **Space Complexity**: O(n), for storing the Huffman tree and encoded data.
+    - *Time Complexity*: O(n log n), where n is the number of unique characters.
+    - *Space Complexity*: O(n), for storing the Huffman tree and encoded data.
   - **Depth-First Search (DFS)**: For anomaly detection in surveillance graphs. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/DFS.cpp)
-    - **Time Complexity**: O(V + E), where V is the number of vertices and E is the number of edges.
-    - **Space Complexity**: O(V), for storing the traversal stack.
+    - *Time Complexity*: O(V + E), where V is the number of vertices and E is the number of edges.
+    - *Space Complexity*: O(V), for storing the traversal stack.
 
 ## 16. Recycling and Reduction of C&D Waste
 Systems to optimize recycling processes and reduce construction and demolition (C&D) waste through efficient resource management. These systems use sensors and data analytics to monitor waste levels and improve recycling efficiency.
@@ -275,11 +275,11 @@ Systems to optimize recycling processes and reduce construction and demolition (
 - **Market Benefits**: Reduced environmental impact, cost savings, increased recycling efficiency.
 - **Design Techniques and Algorithms**:
   - **Greedy Algorithms**: For efficient resource allocation and waste segregation. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/greedy.cpp)
-    - **Time Complexity**: O(n log n), where n is the number of resources.
-    - **Space Complexity**: O(n), for storing the allocated resources.
+    - *Time Complexity*: O(n log n), where n is the number of resources.
+    - *Space Complexity*: O(n), for storing the allocated resources.
   - **K-Means Clustering**: For optimizing waste segregation and recycling routes. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/k-means-clustering.cpp)
-    - **Time Complexity**: O(n * k * t), where n is the number of data points, k is the number of clusters, and t is the number of iterations.
-    - **Space Complexity**: O(n), for storing cluster assignments.
+    - *Time Complexity*: O(n * k * t), where n is the number of data points, k is the number of clusters, and t is the number of iterations.
+    - *Space Complexity*: O(n), for storing cluster assignments.
 
 ## 17. Smart Meters and Management
 IoT-enabled smart meters provide real-time monitoring and management of energy consumption, helping consumers and utilities optimize energy use. These meters send data to centralized systems for analysis and control.
@@ -288,11 +288,11 @@ IoT-enabled smart meters provide real-time monitoring and management of energy c
 - **Market Benefits**: Reduced energy costs, improved energy efficiency, enhanced grid reliability.
 - **Design Techniques and Algorithms**:
   - **Fenwick Tree (Binary Indexed Tree)**: For efficient energy usage queries. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/FenwickTree.cpp)
-    - **Time Complexity**: O(log n) for updates and queries.
-    - **Space Complexity**: O(n), for storing the tree.
+    - *Time Complexity*: O(log n) for updates and queries.
+    - *Space Complexity*: O(n), for storing the tree.
   - **Dynamic Programming**: For optimizing energy consumption schedules. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/dynamicArray.cpp)
-    - **Time Complexity**: O(n * m), where n is the number of time slots and m is the number of devices.
-    - **Space Complexity**: O(n), for storing the optimal schedules.
+    - *Time Complexity*: O(n * m), where n is the number of time slots and m is the number of devices.
+    - *Space Complexity*: O(n), for storing the optimal schedules.
 
 ## 18. Leakage Identification and Preventive Maintenance
 Systems to detect and prevent leaks in water and energy networks, reducing waste and improving infrastructure lifespan. These systems use sensors and algorithms to identify leaks and prioritize maintenance tasks.
@@ -301,11 +301,11 @@ Systems to detect and prevent leaks in water and energy networks, reducing waste
 - **Market Benefits**: Reduced resource waste, cost savings, improved infrastructure reliability.
 - **Design Techniques and Algorithms**:
   - **Union-Find Algorithm**: For detecting connected components in sensor networks. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/union-find.cpp)
-    - **Time Complexity**: O(α(n)), where α is the inverse Ackermann function.
-    - **Space Complexity**: O(n), for storing the parent and rank arrays.
+    - *Time Complexity*: O(α(n)), where α is the inverse Ackermann function.
+    - *Space Complexity*: O(n), for storing the parent and rank arrays.
   - **Kruskal’s Algorithm**: For constructing minimum spanning trees in sensor networks. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/Kruskals.cpp)
-    - **Time Complexity**: O(E log E), where E is the number of edges.
-    - **Space Complexity**: O(V), for storing the spanning tree.
+    - *Time Complexity*: O(E log E), where E is the number of edges.
+    - *Space Complexity*: O(V), for storing the spanning tree.
 
 ## 19. Water Quality Monitoring
 IoT devices and data analytics are used to monitor water quality in real-time, ensuring a safe and clean water supply. These systems detect contaminants and other anomalies, triggering alerts for timely interventions.
@@ -314,11 +314,11 @@ IoT devices and data analytics are used to monitor water quality in real-time, e
 - **Market Benefits**: Improved public health, timely interventions, enhanced water resource management.
 - **Design Techniques and Algorithms**:
   - **Sliding Window Algorithm**: For real-time data processing and anomaly detection. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/hashing.cpp)
-    - **Time Complexity**: O(n), where n is the number of sensors.
-    - **Space Complexity**: O(k), where k is the window size.
+    - *Time Complexity*: O(n), where n is the number of sensors.
+    - *Space Complexity*: O(k), where k is the window size.
   - **Depth-First Search (DFS)**: For monitoring water quality over time and detecting anomalies. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/DFS.cpp)
-    - **Time Complexity**: O(V + E), where V is the number of vertices and E is the number of edges.
-    - **Space Complexity**: O(V), for storing the traversal stack.
+    - *Time Complexity*: O(V + E), where V is the number of vertices and E is the number of edges.
+    - *Space Complexity*: O(V), for storing the traversal stack.
 
 ## 20. Incubation/Trade Facilitation Centers
 Platforms to support startups and trade by providing resources, mentorship, and market access. These centers offer a range of services to help businesses grow and connect with global markets.
@@ -327,11 +327,11 @@ Platforms to support startups and trade by providing resources, mentorship, and 
 - **Market Benefits**: Enhanced business growth, increased innovation, improved market access.
 - **Design Techniques and Algorithms**:
   - **Hash Tables**: For efficient resource allocation and retrieval. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/hashing.cpp)
-    - **Time Complexity**: O(1) for average case insertions and lookups.
-    - **Space Complexity**: O(n), where n is the number of entries.
+    - *Time Complexity*: O(1) for average case insertions and lookups.
+    - *Space Complexity*: O(n), where n is the number of entries.
   - **Graph Algorithms**: For networking and resource connection. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/DFS.cpp)
-    - **Time Complexity**: O(V + E), where V is the number of vertices and E is the number of edges.
-    - **Space Complexity**: O(V), for storing connections.
+    - *Time Complexity*: O(V + E), where V is the number of vertices and E is the number of edges.
+    - *Space Complexity*: O(V), for storing connections.
 
 ## 21. Skill Development Centers
 Platforms for skill development and training, providing courses, resources, and certifications. These centers offer a variety of programs to help individuals improve their skills and enhance their employability.
@@ -340,11 +340,11 @@ Platforms for skill development and training, providing courses, resources, and 
 - **Market Benefits**: Improved employability, enhanced skillsets, economic growth.
 - **Design Techniques and Algorithms**:
   - **Trie Data Structure**: For efficient course search and autocompletion. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/Trie.cpp)
-    - **Time Complexity**: O(m), where m is the length of the query string.
-    - **Space Complexity**: O(n * k), where n is the number of words and k is the average length of the words.
+    - *Time Complexity*: O(m), where m is the length of the query string.
+    - *Space Complexity*: O(n * k), where n is the number of words and k is the average length of the words.
   - **Collaborative Filtering**: For personalized course recommendations. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/collabarative-filtering.cpp)
-    - **Time Complexity**: O(n), where n is the number of users or items.
-    - **Space Complexity**: O(n), for storing user-item interactions.
+    - *Time Complexity*: O(n), where n is the number of users or items.
+    - *Space Complexity*: O(n), for storing user-item interactions.
 
 ## 22. Tele-Medicine and Tele-Education
 Platforms for remote healthcare and education services, enhancing accessibility and quality of service. These platforms provide virtual consultations, remote monitoring, and online learning opportunities.
@@ -353,11 +353,11 @@ Platforms for remote healthcare and education services, enhancing accessibility 
 - **Market Benefits**: Improved accessibility, enhanced service quality, reduced costs.
 - **Design Techniques and Algorithms**:
   - **Hashing**: For secure and efficient data retrieval. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/hashing.cpp)
-    - **Time Complexity**: O(1) for average case lookups.
-    - **Space Complexity**: O(n), where n is the number of entries.
+    - *Time Complexity*: O(1) for average case lookups.
+    - *Space Complexity*: O(n), where n is the number of entries.
   - **Dynamic Arrays**: For handling varying user requests efficiently. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/dynamicArray.cpp)
-    - **Time Complexity**: O(1) for amortized insertions.
-    - **Space Complexity**: O(n), where n is the number of elements.
+    - *Time Complexity*: O(1) for amortized insertions.
+    - *Space Complexity*: O(n), where n is the number of elements.
 
 ## 23. Renewable Sources of Energy
 Systems for integrating and managing renewable energy sources in the grid, enhancing sustainability and efficiency. These systems balance supply and demand, ensuring grid stability while maximizing the use of renewable resources.
@@ -366,11 +366,11 @@ Systems for integrating and managing renewable energy sources in the grid, enhan
 - **Market Benefits**: Reduced carbon footprint, improved energy efficiency, enhanced sustainability.
 - **Design Techniques and Algorithms**:
   - **Dynamic Programming**: For optimizing energy consumption schedules. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/dynamicArray.cpp)
-    - **Time Complexity**: O(n * m), where n is the number of time slots and m is the number of devices.
-    - **Space Complexity**: O(n), for storing the optimal schedules.
+    - *Time Complexity*: O(n * m), where n is the number of time slots and m is the number of devices.
+    - *Space Complexity*: O(n), for storing the optimal schedules.
   - **Fenwick Tree (Binary Indexed Tree)**: For efficient energy usage queries. [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/FenwickTree.cpp)
-    - **Time Complexity**: O(log n) for updates and queries.
-    - **Space Complexity**: O(n), for storing the tree.
+    - **Time Complexity*: O(log n) for updates and queries.
+    - *Space Complexity*: O(n), for storing the tree.
 
 ### References
 - [SmartCityGuidelines](https://smartcities.gov.in/sites/default/files/SmartCityGuidelines.pdf)
