@@ -70,7 +70,7 @@ By the end of this portfolio project, I aim to accomplish the following objectiv
 
 
 ## Business Use Cases and Potential Algorithms
-
+![Usecases Image](usecases.jpeg)
 ### Traffic Management Systems:
 
 **Description:** Smart traffic management systems use sensors and real-time data analytics to monitor and control traffic flow, reduce congestion, and enhance road safety.
