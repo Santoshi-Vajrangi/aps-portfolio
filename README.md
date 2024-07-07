@@ -25,8 +25,8 @@ This page hosts:
 2. [Why Portfolio](#why-portfolio)
 3. [Objectives](#objectives)
 4. [Design](#design)
-5. [Challenges](#challenges)
-6. [To-Do](#to-do)
+5. [Business Use Cases](#Business-Use-Cases)
+6. [References](#Refences)
 
 
 * * *
@@ -69,7 +69,7 @@ By the end of this portfolio project, I aim to accomplish the following objectiv
 - **Sustainable Development**: Promote sustainable practices by reducing resource consumption and minimizing environmental impact.
 
 
-# Business Use Cases for Smart Cities   
+## Business Use Cases for Smart Cities <a name="Business-Use-Cases"></a>
 ![Usecases Image](usecases.jpeg)
  
 ## 1. Traffic Management Systems
