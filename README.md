@@ -214,7 +214,7 @@ Implement smart tourism solutions that provide personalized recommendations, rea
 - **Market Benefits**: Improved visitor experience, increased tourism revenue, enhanced cultural engagement.
 - **Design Techniques and Algorithms**:
   - **Collaborative Filtering**: For personalized recommendations.
-  - [View code here](https://github.com/your-repo/collaborative-filtering)
+  - [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/collabarative-filtering.cpp)
     - *Time Complexity*: O(n), where n is the number of users or items.
     - *Space Complexity*: O(n), for storing user-item interactions.
   - **Dijkstra’s Algorithm**: For real-time navigation.
