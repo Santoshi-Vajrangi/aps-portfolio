@@ -421,3 +421,4 @@ Systems for integrating and managing renewable energy sources in the grid, enhan
 ### References
 - [SmartCityGuidelines](https://smartcities.gov.in/sites/default/files/SmartCityGuidelines.pdf)
 - [Vision of Smart Cities Mission](https://smartcities.gov.in/)
+- [Urban planning for Smart Cities](https://www.researchgate.net/publication/216700987_SMART_CITY_REFERENCE_MODEL_AN_APPROACH_TO_ASSIST_SMART_PLANNERS_TO_CONCEPTUALIZE_A_CITY'S_SMART_INNOVATION_ECOSYSTEM)
