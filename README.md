@@ -74,8 +74,7 @@ By the end of this portfolio project, I aim to accomplish the following objectiv
   <p>
    Utility management, including water and electricity, uses graph representations of distribution networks and sensor networks for real-time monitoring. Dynamic programming algorithms optimize resource allocation and predict future usage patterns, ensuring efficient and reliable service delivery. Public safety systems utilize graphs to model the city's layout, facilitating rapid emergency response through optimal routing, while priority queues handle the prioritization of emergency calls. Additionally, dynamic programming predicts crime hotspots, allowing for effective allocation of law enforcement resources. Smart buildings and infrastructure are monitored and controlled using IoT networks and graph-based models, ensuring efficient maintenance and emergency management. This integrated approach, supported by robust DSA, enhances the overall quality of urban life by making city services more efficient, adaptive, and responsive to residents' needs.
   </p>
-![planning Image](planning.jpeg)
-
+ 
 ## Business Use Cases for Smart Cities <a name="Business-Use-Cases"></a>
 ![Usecases Image](usecases.jpeg)
  
@@ -399,8 +398,12 @@ Platforms for skill development and training, providing courses, resources, and 
 
  
 
-### References
-- [SmartCityGuidelines](https://smartcities.gov.in/sites/default/files/SmartCityGuidelines.pdf)
-- [Vision of Smart Cities Mission](https://smartcities.gov.in/)
-- [Urban planning for Smart Cities](https://www.researchgate.net/publication/216700987_SMART_CITY_REFERENCE_MODEL_AN_APPROACH_TO_ASSIST_SMART_PLANNERS_TO_CONCEPTUALIZE_A_CITY'S_SMART_INNOVATION_ECOSYSTEM)
-- [Smart City Taxi Trajectory Coverage and Capacity Evaluation Model for Vehicular Sensor Networks](https://www.researchgate.net/figure/Smart-city-scenario-for-data-dissemination-5_fig1_355049894)
+## References <a name="references"></a>
+[1] "Smart City Guidelines," Smart Cities Mission, Government of India. [Online]. Available: [https://smartcities.gov.in/sites/default/files/SmartCityGuidelines.pdf](https://smartcities.gov.in/sites/default/files/SmartCityGuidelines.pdf)
+
+[2] "Vision of Smart Cities Mission," Smart Cities Mission, Government of India. [Online]. Available: [https://smartcities.gov.in/](https://smartcities.gov.in/)
+
+[3] "Urban Planning for Smart Cities," ResearchGate. [Online]. Available: [https://www.researchgate.net/publication/216700987_SMART_CITY_REFERENCE_MODEL_AN_APPROACH_TO_ASSIST_SMART_PLANNERS_TO_CONCEPTUALIZE_A_CITY'S_SMART_INNOVATION_ECOSYSTEM](https://www.researchgate.net/publication/216700987_SMART_CITY_REFERENCE_MODEL_AN_APPROACH_TO_ASSIST_SMART_PLANNERS_TO_CONCEPTUALIZE_A_CITY'S_SMART_INNOVATION_ECOSYSTEM)
+
+[4] "Smart City Taxi Trajectory Coverage and Capacity Evaluation Model for Vehicular Sensor Networks," ResearchGate. [Online]. Available: [https://www.researchgate.net/figure/Smart-city-scenario-for-data-dissemination-5_fig1_355049894](https://www.researchgate.net/figure/Smart-city-scenario-for-data-dissemination-5_fig1_355049894)
+
