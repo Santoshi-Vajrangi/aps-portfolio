@@ -24,7 +24,7 @@ This page hosts:
 1. [Introduction](#introduction)
 2. [Why Portfolio](#why-portfolio)
 3. [Objectives](#objectives)
-4. [Design](#design)
+4. [Design](#SystemDesign)
 5. [Business Use Cases](#Business-Use-Cases)
 6. [References](#Refences)
 
@@ -68,7 +68,13 @@ By the end of this portfolio project, I aim to accomplish the following objectiv
 - **Enhance Public Safety Mechanisms**: Design and implement algorithms for advanced surveillance and incident detection to improve public safety and emergency response systems.
 - **Sustainable Development**: Promote sustainable practices by reducing resource consumption and minimizing environmental impact.
 
-
+## System Design <a name="SystemDesign"></a>
+![System Design Image](design.jpeg)
+  <p> Designing a smart city using data structures and algorithms (DSA) involves creating a highly efficient and responsive urban environment by leveraging advanced computational techniques. The transportation system, for example, can be optimized using graph data structures to model the city's road network, with algorithms like Dijkstra's or A* finding the shortest paths to reduce congestion. Real-time traffic updates and emergency vehicle routing are managed through priority queues, while dynamic programming helps predict and mitigate traffic jams.</p>
+  <p>
+   Utility management, including water and electricity, uses graph representations of distribution networks and sensor networks for real-time monitoring. Dynamic programming algorithms optimize resource allocation and predict future usage patterns, ensuring efficient and reliable service delivery. Public safety systems utilize graphs to model the city's layout, facilitating rapid emergency response through optimal routing, while priority queues handle the prioritization of emergency calls. Additionally, dynamic programming predicts crime hotspots, allowing for effective allocation of law enforcement resources. Smart buildings and infrastructure are monitored and controlled using IoT networks and graph-based models, ensuring efficient maintenance and emergency management. This integrated approach, supported by robust DSA, enhances the overall quality of urban life by making city services more efficient, adaptive, and responsive to residents' needs.
+  </p>
+![planning Image](planning.jpeg)
 ## Business Use Cases for Smart Cities <a name="Business-Use-Cases"></a>
 ![Usecases Image](usecases.jpeg)
  
@@ -77,7 +83,7 @@ Smart traffic management systems use sensors and real-time data analytics to mon
 
 - **Challenges**: Integrating data from multiple sources, real-time decision-making, handling peak traffic loads.
 - **Market Benefits**: Reduced travel time, decreased fuel consumption, improved traffic safety.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Dijkstra's Algorithm**: For route optimization.
     - *Time Complexity*: O(V^2) or O(E + V log V) with a priority queue, where V is the number of vertices and E is the number of edges.
     - *Space Complexity*: O(V), for storing the shortest path tree.
@@ -92,7 +98,7 @@ IoT-enabled waste management systems optimize collection routes and schedules ba
 
 - **Challenges**: Ensuring sensor accuracy, efficient route optimization, handling diverse waste types.
 - **Market Benefits**: Reduced operational costs, increased efficiency, improved environmental impact.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Greedy Algorithm**: For route optimization in waste collection.
     - *Time Complexity*: O(n log n), where n is the number of bins.
     - *Space Complexity*: O(n), for storing the sorted bins.
@@ -107,7 +113,7 @@ Smart grids and meters provide real-time monitoring and management of energy con
 
 - **Challenges**: Integrating renewable sources, ensuring grid stability, managing peak loads.
 - **Market Benefits**]: Reduced energy costs, improved sustainability, enhanced grid reliability.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Dynamic Programming**: For optimizing energy consumption schedules.
     - *Time Complexity*: O(n * m), where n is the number of time slots and m is the number of devices.
     - *Space Complexity*: O(n), for storing the optimal schedules.
@@ -122,7 +128,7 @@ Advanced surveillance systems enhance public safety through real-time monitoring
 
 - **Challenges**: Ensuring data privacy, real-time processing of large video data, accurate detection of incidents.
 - **Market Benefits**: Enhanced public safety, quick response to incidents, reduced crime rates.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Huffman Coding**: For compressing video metadata.
     - *Time Complexity*: O(n log n), where n is the number of unique characters.
     - *Space Complexity*: O(n), for storing the Huffman tree and encoded data.
@@ -137,7 +143,7 @@ Smart parking systems use sensors and mobile applications to guide drivers to av
 
 - **Challenges**: Real-time data processing, maintaining sensor accuracy, user adoption.
 - **Market Benefits**: Reduced traffic congestion, increased parking revenue, improved user convenience.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Binary Search**: For quickly finding available parking spots.
     - *Time Complexity*: O(log n), where n is the number of parking spots.
     - *Space Complexity*: O(1), for the search operation.
@@ -152,7 +158,7 @@ IoT devices monitor environmental parameters such as air quality, noise levels, 
 
 - **Challenges**: Ensuring data accuracy, integrating data from multiple sources, real-time processing.
 - **Market Benefits**: Improved public health, informed policy-making, enhanced environmental protection.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Union-Find Algorithm**: For detecting connected components in sensor networks.
     - *Time Complexity*: O(α(n)), where α is the inverse Ackermann function.
     - *Space Complexity*: O(n), for storing the parent and rank arrays.
@@ -164,10 +170,10 @@ IoT devices monitor environmental parameters such as air quality, noise levels, 
 
 ## 7. Urban Planning and Development
 Smart urban planning uses data analytics and simulation tools to optimize land use, infrastructure development, and resource allocation. These tools help in making informed decisions about zoning, transportation, and public services.
-
+![Usecases Image](planning.jpeg)
 - **Challenges**: Integrating diverse data sources, ensuring model accuracy, handling complex scenarios.
 - **Market Benefits**: Efficient land use, improved infrastructure, informed policy decisions.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Prim’s Algorithm**: For network optimization in urban planning.
     - *Time Complexity* O(E log V), where E is the number of edges and V is the number of vertices.
     - *Space Complexity*: O(V), for storing the minimum spanning tree.
@@ -176,13 +182,14 @@ Smart urban planning uses data analytics and simulation tools to optimize land u
     - *Time Complexity*: O(V + E), where V is the number of vertices and E is the number of edges.
     - *Space Complexity*: O(V), for storing the sorted order.
     -  [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/DFS.cpp)
+  
 
 ## 8. Smart Lighting Systems
 Adaptive street lighting systems adjust brightness based on the presence of pedestrians or vehicles, reducing energy consumption and light pollution. These systems use sensors to detect motion and adjust lighting levels accordingly.
 
 - **Challenges**: Ensuring sensor accuracy, real-time data processing, user acceptance.
 - **Market Benefits**: Reduced energy consumption, improved safety, decreased light pollution.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Segment Tree**: For efficient range queries and updates.
     - *Time Complexity*: O(log n) for updates and queries.
     - *Space Complexity*: O(n), for storing the tree.
@@ -197,7 +204,7 @@ Implement systems to optimize emergency response times by analyzing real-time da
 
 - **Challenges**: Real-time data integration, accurate incident detection, resource management.
 - **Market Benefits**: Faster response times, improved public safety, efficient resource utilization.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Bellman-Ford Algorithm**: For finding shortest paths in dynamic graphs.
     - *Time Complexity*: O(VE), where V is the number of vertices and E is the number of edges.
     - *Space Complexity*: O(V), for storing distances and predecessors.
@@ -212,7 +219,7 @@ Implement smart tourism solutions that provide personalized recommendations, rea
 
 - **Challenges**: Ensuring data privacy, accurate recommendations, real-time data processing.
 - **Market Benefits**: Improved visitor experience, increased tourism revenue, enhanced cultural engagement.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Collaborative Filtering**: For personalized recommendations.
     - *Time Complexity*: O(n), where n is the number of users or items.
     - *Space Complexity*: O(n), for storing user-item interactions.
@@ -228,7 +235,7 @@ Integrate IoT technologies to monitor urban agriculture practices, optimize reso
 
 - **Challenges**: Ensuring sensor accuracy, data integration, resource management.
 - **Market Benefits**: Improved food security, efficient resource use, enhanced community engagement.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Greedy Algorithms**: For resource allocation in urban farming.
     - *Time Complexity*: O(n log n), where n is the number of resources.
     - *Space Complexity*: O(n), for storing the allocated resources.
@@ -243,7 +250,7 @@ Develop smart learning environments that utilize IoT devices, AI-driven personal
 
 - **Challenges**: Ensuring data privacy, accurate recommendations, integrating diverse learning data.
 - **Market Benefits**: Improved learning outcomes, enhanced accessibility, personalized learning experiences.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Trie Data Structure**: For efficient text search and auto-completion in learning platforms.
     - *Time Complexity*: O(m), where m is the length of the query string.
     - *Space Complexity*: O(n * k), where n is the number of words and k is the average length of the words.
@@ -258,7 +265,7 @@ Digital platforms for delivering government services such as applications, payme
 
 - **Challenges**: Ensuring data security, handling high user traffic, integrating diverse services.
 - **Market Benefits**: Improved accessibility, reduced administrative costs, enhanced user satisfaction.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Hashing**: For secure and efficient data retrieval.
     - *Time Complexity*: O(1) for average case lookups.
     - *Space Complexity*: O(n), where n is the number of entries.
@@ -273,7 +280,7 @@ Platforms for citizen participation in governance through feedback, reporting is
 
 - **Challenges**: Ensuring user engagement, managing large volumes of feedback, maintaining platform security.
 - **Market Benefits**: Increased civic participation, improved public services, stronger community ties.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Trie Data Structure**: For efficient searching and autocompletion of user queries.
     - *Time Complexity*: O(m), where m is the length of the query string.
     - *Space Complexity*: O(n * k), where n is the number of words and k is the average length of the words.
@@ -288,7 +295,7 @@ Surveillance systems using video analytics to detect and respond to criminal act
 
 - **Challenges**: Processing large volumes of video data, ensuring real-time detection, maintaining privacy.
 - **Market Benefits**: Enhanced public safety, quick response to incidents, deterrence of criminal activities.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Huffman Coding**: For compressing video metadata.
     - *Time Complexity*: O(n log n), where n is the number of unique characters.
     - *Space Complexity*: O(n), for storing the Huffman tree and encoded data.
@@ -303,7 +310,7 @@ Systems to optimize recycling processes and reduce construction and demolition (
 
 - **Challenges**: Ensuring accurate waste segregation, optimizing recycling routes, integrating real-time data.
 - **Market Benefits**: Reduced environmental impact, cost savings, increased recycling efficiency.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Greedy Algorithms**: For efficient resource allocation and waste segregation.
     - *Time Complexity*: O(n log n), where n is the number of resources.
     - *Space Complexity*: O(n), for storing the allocated resources.
@@ -318,7 +325,7 @@ IoT-enabled smart meters provide real-time monitoring and management of energy c
 
 - **Challenges**: Ensuring data accuracy, handling large volumes of data, real-time processing.
 - **Market Benefits**: Reduced energy costs, improved energy efficiency, enhanced grid reliability.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Fenwick Tree (Binary Indexed Tree)**: For efficient energy usage queries.
     - *Time Complexity*: O(log n) for updates and queries.
     - *Space Complexity*: O(n), for storing the tree.
@@ -333,7 +340,7 @@ Systems to detect and prevent leaks in water and energy networks, reducing waste
 
 - **Challenges**: Ensuring sensor accuracy, real-time leak detection, prioritizing maintenance tasks.
 - **Market Benefits**: Reduced resource waste, cost savings, improved infrastructure reliability.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Union-Find Algorithm**: For detecting connected components in sensor networks.
     - *Time Complexity*: O(α(n)), where α is the inverse Ackermann function.
     - *Space Complexity*: O(n), for storing the parent and rank arrays.
@@ -348,7 +355,7 @@ IoT devices and data analytics are used to monitor water quality in real-time, e
 
 - **Challenges**: Ensuring sensor accuracy, real-time data processing, integrating diverse data sources.
 - **Market Benefits**: Improved public health, timely interventions, enhanced water resource management.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Sliding Window Algorithm**: For real-time data processing and anomaly detection.
     - *Time Complexity*: O(n), where n is the number of sensors.
     - *Space Complexity*: O(k), where k is the window size.
@@ -363,7 +370,7 @@ Platforms to support startups and trade by providing resources, mentorship, and 
 
 - **Challenges**: Ensuring resource allocation, managing diverse user needs, integrating services.
 - **Market Benefits**: Enhanced business growth, increased innovation, improved market access.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Hash Tables**: For efficient resource allocation and retrievals.
     - *Time Complexity*: O(1) for average case insertions and lookups.
     - *Space Complexity*: O(n), where n is the number of entries.
@@ -378,7 +385,7 @@ Platforms for skill development and training, providing courses, resources, and 
 
 - **Challenges**: Ensuring course relevance, integrating diverse learning materials, tracking progress.
 - **Market Benefits**: Improved employability, enhanced skillsets, economic growth.
-- **Design Techniques and Algorithms**:
+- **Algorithms and performance Analysis**:
   - **Trie Data Structure**: For efficient course search and autocompletion.
     - *Time Complexity*: O(m), where m is the length of the query string.
     - *Space Complexity*: O(n * k), where n is the number of words and k is the average length of the words.
@@ -387,21 +394,7 @@ Platforms for skill development and training, providing courses, resources, and 
     - *Time Complexity*: O(n), where n is the number of users or items.
     - *Space Complexity*: O(n), for storing user-item interactions.
     - [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/collabarative-filtering.cpp)
-
-## 22. Tele-Medicine and Tele-Education
-Platforms for remote healthcare and education services, enhancing accessibility and quality of service. These platforms provide virtual consultations, remote monitoring, and online learning opportunities.
-
-- **Challenges**: Ensuring data privacy, real-time service delivery, integrating diverse resources.
-- **Market Benefits**: Improved accessibility, enhanced service quality, reduced costs.
-- **Design Techniques and Algorithms**:
-  - **Hashing**: For secure and efficient data retrieval.
-    - *Time Complexity*: O(1) for average case lookups.
-    - *Space Complexity*: O(n), where n is the number of entries.
-    -  [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/hashing.cpp)
-  - **Dynamic Arrays**: For handling varying user requests efficiently.
-    - *Time Complexity*: O(1) for amortized insertions.
-    - *Space Complexity*: O(n), where n is the number of elements.
-    - [View code here](https://github.com/Santoshi-Vajrangi/aps-portfolio/blob/main/codes/dynamicArray.cpp)
+ 
 
  
 
@@ -409,3 +402,4 @@ Platforms for remote healthcare and education services, enhancing accessibility 
 - [SmartCityGuidelines](https://smartcities.gov.in/sites/default/files/SmartCityGuidelines.pdf)
 - [Vision of Smart Cities Mission](https://smartcities.gov.in/)
 - [Urban planning for Smart Cities](https://www.researchgate.net/publication/216700987_SMART_CITY_REFERENCE_MODEL_AN_APPROACH_TO_ASSIST_SMART_PLANNERS_TO_CONCEPTUALIZE_A_CITY'S_SMART_INNOVATION_ECOSYSTEM)
+- [Smart City Taxi Trajectory Coverage and Capacity Evaluation Model for Vehicular Sensor Networks](https://www.researchgate.net/figure/Smart-city-scenario-for-data-dissemination-5_fig1_355049894)
